@@ -1,0 +1,22 @@
+.navigation-menu {
+    display: flex;
+    flex: 1;
+    list-style: none;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 32px;
+}
+
+
+
+.navigation-menu a {
+    text-decoration: none;
+    color: #000;
+    margin-right: 32px;
+    transition: 0.3s color ease;
+}
+
+.navigation-menu a:hover {
+    color: #cc0fcc;
+}
+
