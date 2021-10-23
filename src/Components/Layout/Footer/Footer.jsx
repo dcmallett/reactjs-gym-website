@@ -6,7 +6,7 @@ const Footer = (props) => {
     const footerDate = new Date().getFullYear()
 
     return (
-        <footer>
+        <footer className={styles.footer}>
             {/*container div */}
             <div className={styles.container}>
                 <div className={styles.left}>

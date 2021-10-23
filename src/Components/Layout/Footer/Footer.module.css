@@ -1,0 +1,33 @@
+.footer {
+    margin-top: auto;
+    padding: 6rem 4rem;
+    background-color: #5cda13;
+}
+
+@media (min-width: 800px) {
+    footer {
+        flex-direction: row;
+        gap: 0;
+    }
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+@media (min-width: 800px) {
+    .container {
+        flex-direction: row;
+        gap: 0;
+    }
+}
+
+.left {
+    gap: 32px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
