@@ -12,7 +12,7 @@ const Footer = (props) => {
                 <div className={styles.left}>
                     <div className={styles["col-1"]}>
                         {/*change to link soon */}
-                        <h2>ReactFitness</h2>
+                        <h2 className={styles.header}>ReactFitness</h2>
                         <ul>
                             {/*find Icons for this and swap to them */}
                             <li>
@@ -27,7 +27,7 @@ const Footer = (props) => {
                         </ul>
                     </div>
                     <div className={styles["col-2"]}>
-                        <ul>
+                        <ul className={styles['col-2 ul']}>
                             <li>
                                 <a href="#">Classes</a>
                             </li>

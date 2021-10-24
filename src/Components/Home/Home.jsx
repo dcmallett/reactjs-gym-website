@@ -11,6 +11,7 @@ const Home = (props) => {
                    Ea, corporis quae facere necessitatibus exercitationem fugit nemo esse dolorum quam quo perspiciatis labore quaerat.
                     <span>Interested in joining? <a href="#">Signup Now</a></span>
                </p>
+               
            </div>
        </Fragment>
     )
